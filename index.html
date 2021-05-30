@@ -5,21 +5,17 @@
   .bg{
   
   background-color:#727a74;
-  
-  
-  
   }
  .header{
-      height:71px;
-	  width:1528px;
+    height:71px;
+	 width:1528px;
      background-color:black;
       margin:-11px;
 	  top:0px;
+	     position:relative;
  }
-
-
- 
  .topnav {
+  display:block;
   overflow: hidden;
   background-color: #333;
 transform: translate(-9px,11px);
@@ -29,7 +25,6 @@ width:1528px;
 .topnav a {
   float: left;
   color: #f2f2f2;
-  
     text-align: center;
     padding: 22px 40px;
     text-decoration: none;
@@ -54,8 +49,6 @@ width:1528px;
     transform: translate(-1px,-128px);
     color: white;
     font-size: 23px;
-
-
 }
 
 .MYImage{
@@ -63,16 +56,9 @@ width:1528px;
 transform: translate(542px,-8px);
 
 }
-
-.
-
-
-.name2{
-
-    
+.name2{ 
     color: #dfdfdfd6;
     font-size: 23px;
-
 }
 
 .Aboutme{
@@ -82,21 +68,8 @@ transform: translate(542px,-8px);
      height: 477px;
     width: 1528px;
      background-color:white;
-      
-
-
-
-
-
 }
-
-
-
-
 .experience{
-
-
-
   text-align:center;
 
      height: 477px;
@@ -126,9 +99,6 @@ transform: translate(-9px,-36px);
 transform: translate(-9px,-54px);
 
 }
-
-
-
 .a{
        border-style: solid;
   border-width: 2px;
@@ -191,28 +161,26 @@ transform: translate(-9px,-54px);
 </head>
 <body class="bg">
 
-
-
-
 <div class="Header">
 
 </div>
 
-
 <div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#news">About</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">CV</a>
+  <a href="#">Home</a>
+  <a href="#About-Me">About</a>
+  <a href="#Contact-Me">Contact</a>
+  
+
+  <a href="#">CV</a>
 </div>
 
 <div class="name">
 
-<h3><b>k</b>ingshuk</h3>
+<h3><I>k</I>ingshuk</h3>
 
 </div>
 
-<img src="Capture.JPG" class="MYImage">
+<img src="capture.JPG" class="MYImage">
 
 <center>
 <div class="name2">
@@ -225,7 +193,7 @@ transform: translate(-9px,-54px);
 
 </center>
 <div class="Aboutme">
-<h1>About Me <h1>
+<h1 id="About-Me">About Me </h1>
  
  
 <h3>Name: Kingshuk Paul Mishon</h3>
@@ -240,7 +208,7 @@ transform: translate(-9px,-54px);
 
 <h3>Languages:English, Hindi</h3>
 
-<h3>Relationship:   Single</h3>
+<h3>Relationship:</h3>
  
  </h3>
 
@@ -261,9 +229,6 @@ transform: translate(-9px,-54px);
 
 
 </div>
-
-
-
 
 <div class="education">
 <h1>Education <h1>
@@ -304,7 +269,7 @@ GPA: 4.38 (on a scale of 5.00)
 
 
 
-<h1>Contact Me</h1>
+<h1 id="Contact-Me">Contact Me</h1>
 
   <h4>Phone:+8801876067163<h4>
 <h4>Email:kingshukpaul82@gmail.com</h4>
@@ -319,28 +284,13 @@ GPA: 4.38 (on a scale of 5.00)
 <input type="text" required="" class="e" placeholder="Subject"><br>
 <input type="message" required="" class="f" placeholder="text your message here">
 
-<button type="submit">Submit</button>
+<button type="submit">Send</button>
 
 </div>
 </center>
-
-
-
-
-
-
-
-
-
-
-
 </div>
 
 </div>
-
-
-
-
 </body>
 
 </html>
